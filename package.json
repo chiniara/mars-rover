@@ -1,0 +1,30 @@
+{
+  "name": "voyager-portal",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "test": "mocha  --require ts-node/register --require mocha-suppress-logs **/*.spec.ts"
+  },
+  "author": "",
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "assert": "^2.0.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.0.0",
+    "mocha-suppress-logs": "^0.3.1",
+    "prettier": "^2.7.1",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
